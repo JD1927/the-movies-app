@@ -1,0 +1,26 @@
+<mat-card (click)="onCardDetail()" class="card mat-elevation-z8">
+  <mat-card-content>
+    <div class="movie">
+      <div class="movie__image">
+        <img [src]="movie.image" alt="{{ movie.title }}">
+      </div>
+      <div class="movie__detail">
+        <div>
+          <h3 class="movie__detail-title" [matBadge]="movie.rank" matBadgeOverlap="false">
+            {{ movie.title | titlecase }}
+          </h3>
+        </div>
+        <div>
+          <p class="movie__detail-release-date">
+            {{ movie.releaseDate | date: 'dd MMM yyyy' }} ({{ movie.country }})
+          </p>
+        </div>
+        <div>
+          <p class="movie__detail-description">
+            {{ movie.description | slice:0:200 }}...
+          </p>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>

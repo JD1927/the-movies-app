@@ -1,0 +1,96 @@
+// ==========================================================================
+// Mixins MEDIA QUERIES (Taking Boostrap 4 references)
+// ==========================================================================
+$breakpoints: (xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px);
+
+// (min-width) e.g : @include mq-up(sm) {}
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+@mixin mq-up($breakpoint) {
+
+  // Check if the current breakpoint exists in the map.
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Getting map value.
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    // Media querie content
+    @media (min-width: $breakpoint-value) {
+      @content;
+    }
+
+    // If the current breakpoint doesn't exist
+  }
+
+  @else {
+    // error log.
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+// (max-width) : e.g: @include mq-down(sm) {}
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+@mixin mq-down($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+    @media (max-width: ($breakpoint-value - 1)) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+//  RESPONSIVE : (max-width and min-width) e.g: @include mq-between(sm, md) {}
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+@mixin mq-between($lower, $upper) {
+  @if map-has-key($breakpoints, $lower) and map-has-key($breakpoints, $upper) {
+    $lower-breakpoint: map-get($breakpoints, $lower);
+    $upper-breakpoint: map-get($breakpoints, $upper);
+
+    @media (min-width: $lower-breakpoint) and (max-width: ($upper-breakpoint - 1)) {
+      @content;
+    }
+  }
+
+  @else {
+    @if (map-has-key($breakpoints, $lower)==false) {
+      @warn 'Your lower breakpoint was invalid: #{$lower}.';
+    }
+
+    @if (map-has-key($breakpoints, $upper)==false) {
+      @warn 'Your upper breakpoint was invalid: #{$upper}.';
+    }
+  }
+}
+
+
+// ==========================================================================
+// Mixins SELECTORES (BEM) : https://css-tricks.com/snippets/sass/bem-mixins/
+// ==========================================================================
+// Block Element
+// $element : block__element
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+// 2° Level Component
+// 2° Level Element : block__element-element
+@mixin gc($elementGrantChild) {
+  &-#{$elementGrantChild} {
+    @content;
+  }
+}
+
+// Modifier element : block__element--modifier
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}

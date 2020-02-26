@@ -1,0 +1,9 @@
+@import '../../../assets/scss/utilities/mixins';
+
+.latest-movies {
+  min-height: 80vh;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  margin: 30px;
+}

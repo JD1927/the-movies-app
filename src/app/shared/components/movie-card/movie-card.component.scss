@@ -1,0 +1,49 @@
+@import './../../../../assets/scss/utilities/mixins';
+
+.card {
+  cursor: pointer;
+}
+
+.movie {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  column-gap: 20px;
+  align-items: center;
+
+  @include mq-down(sm) {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  @include e('image') {
+    > img {
+      width: 100%;
+    }
+  }
+
+  @include e('detail') {
+
+    @include gc('title') {
+      font-size: 1.5rem;
+      font-weight: bold;
+      font-family: 'Roboto';
+      color: #4054B5;
+    }
+
+    @include gc('release-date') {
+      font-size: 1rem;
+      font-style: italic;
+      font-family: 'Roboto';
+      color: #707070;
+    }
+
+    @include gc('description') {
+      font-size: .87rem;
+      font-style: normal;
+      font-family: 'Roboto';
+      @include mq-down(sm) {
+        display: none;
+      }
+    }
+
+  }
+}

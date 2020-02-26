@@ -1,0 +1,41 @@
+<ng-container>
+  <mat-toolbar color="primary">
+    <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
+      *ngIf="isHandset$ | async">
+      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+    </button>
+    <h3>The Movies App</h3>
+  </mat-toolbar>
+
+  <mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport="false"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+      <mat-nav-list class="nav-list">
+        <a class="item" mat-list-item routerLink="/home" routerLinkActive="active">
+          <i class="material-icons">home</i> Home
+        </a>
+        <mat-divider></mat-divider>
+
+        <a class="item" mat-list-item routerLink="/top-movies" routerLinkActive="active">
+          <i class="material-icons">movie_filter</i> Top 10
+        </a>
+        <mat-divider></mat-divider>
+
+        <a class="item" mat-list-item routerLink="/latest-movies" routerLinkActive="active">
+          <i class="material-icons">local_movies</i> Latest
+        </a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div>
+        <div class="screen-button" *ngIf="!(isHandset$ | async)">
+          <button mat-button (click)="onChangeScreenMode()" color="basic">
+            <i class="material-icons">{{ openSideBar ? 'swap_horiz' : 'fullscreen' }}</i>
+          </button>
+        </div>
+        <ng-content></ng-content>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</ng-container>
