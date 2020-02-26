@@ -1,0 +1,106 @@
+@import './../../../../assets/scss/utilities/mixins';
+
+.modal {
+  position: relative;
+}
+
+.movie {
+  @include e('detail') {
+    @include gc('header') {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 20px;
+
+      .icon {
+        font-size: 3rem;
+        position: absolute;
+        top: -13px;
+        left: -3px;
+      }
+
+      .title {
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-family: 'Roboto';
+        color: #4054b5;
+        margin-bottom: 0;
+      }
+
+      .year {
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: 'Roboto';
+        color: #707070;
+        margin-bottom: 0;
+      }
+
+      .score {
+        display: flex;
+        align-items: center;
+
+        .rating {
+          font-size: 1.3rem;
+          font-weight: bold;
+          font-family: 'Roboto';
+          color: #707070;
+          margin-bottom: 0;
+        }
+
+        .starts {
+          font-size: 2rem;
+          color: #eebb02;
+        }
+
+        .score-limit {
+          font-size: 1rem;
+          font-weight: normal;
+        }
+      }
+    }
+
+    @include gc('full-description') {
+      display: flex;
+      justify-content: space-around;
+      font-size: 1.2rem;
+      font-family: 'Roboto';
+      color: #707070;
+      margin-bottom: 10px;
+
+      .genres {
+        display: flex;
+
+        .genre {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+      }
+
+      .release-date {
+        font-size: 1rem;
+        font-weight: lighter;
+        font-family: 'Roboto';
+      }
+    }
+  }
+
+  @include e('images') {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 15px;
+
+    @include gc('post') {
+      .image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    @include gc('video') {
+      .video {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

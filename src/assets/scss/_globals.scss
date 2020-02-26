@@ -1,3 +1,16 @@
+@import './utilities/mixins';
+
 html, body {
   height: 100%;
+}
+
+.movie-modal {
+
+  @include mq-down(sm) {
+    max-width: 95vw !important // This '!important' is required for mobile device;
+  }
+
+  mat-dialog-container {
+    width: 800px;
+  }
 }

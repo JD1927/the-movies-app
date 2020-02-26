@@ -1,0 +1,56 @@
+<div class="modal">
+  <mat-dialog-content>
+    <div class="movie">
+      <div class="movie__detail">
+        <div class="movie__detail-header">
+          <div>
+            <i class="material-icons icon">
+              bookmarks
+            </i>
+          </div>
+          <h3 class="title">
+            {{ movie.title | titlecase }}
+          </h3>
+          <div>
+            <p class="year">({{ movie.year }})</p>
+          </div>
+          <div class="score">
+            <i class="material-icons starts">stars</i>
+            <p class="rating">{{ movie.rating }}/<span class="score-limit">10</span></p>
+          </div>
+        </div>
+        <div class="movie__detail-full-description">
+          <div>
+            <mat-chip-list>
+              <mat-chip color="basic" selected>{{ movie.duration }}</mat-chip>
+            </mat-chip-list>
+          </div>
+          <div class="genres">
+            <mat-chip-list class="genre" *ngFor="let genre of movie.genres">
+              <mat-chip color="basic" selected>{{ genre }}</mat-chip>
+            </mat-chip-list>
+          </div>
+          <div>
+            <mat-chip-list>
+              <mat-chip class="release-date" color="basic" selected>{{ movie.releaseDate | date: 'dd MMM yyyy'}}
+              </mat-chip>
+            </mat-chip-list>
+          </div>
+        </div>
+      </div>
+      <div class="movie__images">
+        <div class="movie__images-post">
+          <img class="image" [src]="movie.image" [alt]="movie.title">
+        </div>
+        <div class="movie__images-video">
+          <iframe class="video" [src]="(movie.trailer | safe: 'resourceUrl')" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Close</button>
+  </mat-dialog-actions>
+</div>

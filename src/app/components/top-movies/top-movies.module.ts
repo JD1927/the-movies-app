@@ -5,6 +5,7 @@ import { TopMoviesRoutingModule } from './top-movies-routing.module';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { HttpClientModule } from '@angular/common/http';
 import { MovieService } from 'src/app/services/movie.service';
+import { MovieModalComponent } from 'src/app/shared/components/movie-modal/movie-modal.component';
 
 
 
@@ -16,6 +17,7 @@ import { MovieService } from 'src/app/services/movie.service';
     SharedModule,
     HttpClientModule
   ],
-  providers: [MovieService]
+  providers: [MovieService],
+  entryComponents: [MovieModalComponent]
 })
 export class TopMoviesModule { }
