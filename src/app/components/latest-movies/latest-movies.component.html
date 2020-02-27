@@ -1,5 +1,10 @@
 <div class="latest-movies">
-  <div *ngFor="let movie of latestMovies">
-    <app-movie-card [movie]="movie"></app-movie-card>
+  <div class="latest-movies__list">
+    <div *ngFor="let movie of latestMovies">
+      <app-movie-card [movie]="movie"></app-movie-card>
+    </div>
+  </div>
+  <div class="latest-movies__seller">
+    Hola
   </div>
 </div>

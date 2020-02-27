@@ -12,16 +12,17 @@
     "contentRating": "11",
     "duration": "PT100M",
     "releaseDate": "2018-02-28",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "A group of friends who meet regularly for game nights find themselves trying to solve a murder mystery.",
+    "description": "A group of friends who meet regularly for game nights find themselves trying to solve a murder mystery.",
     "actors": [
       "Rachel McAdams",
       "Jesse Plemons",
       "Jason Bateman"
     ],
     "imdbRating": "",
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQxMDE5NDg0NV5BMl5BanBnXkFtZTgwNTA5MDE2NDM@._V1_SY500_CR0,0,337,500_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQxMDE5NDg0NV5BMl5BanBnXkFtZTgwNTA5MDE2NDM@._V1_SY500_CR0,0,337,500_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/qmxMAdV6s4U"
   },
   {
     "id": "2",
@@ -36,16 +37,17 @@
     "contentRating": "R",
     "duration": "",
     "releaseDate": "2018-02-23",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "Annihilation",
-    "storyline": "A biologist's husband disappears. She puts her name forward for an expedition into an environmental disaster zone, but does not find what she's expecting. The expedition team is made up of the biologist, an anthropologist, a psychologist, a surveyor, and a linguist.",
+    "description": "A biologist's husband disappears. She puts her name forward for an expedition into an environmental disaster zone, but does not find what she's expecting. The expedition team is made up of the biologist, an anthropologist, a psychologist, a surveyor, and a linguist.",
     "actors": [
       "Tessa Thompson",
       "Jennifer Jason Leigh",
       "Natalie Portman"
     ],
     "imdbRating": "",
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2Mjc2NzYxNl5BMl5BanBnXkFtZTgwMTA2OTA1NDM@._V1_SY500_CR0,0,320,500_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2Mjc2NzYxNl5BMl5BanBnXkFtZTgwMTA2OTA1NDM@._V1_SY500_CR0,0,320,500_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/89OP78l9oF0"
   },
   {
     "id": "3",
@@ -58,16 +60,17 @@
     "contentRating": "",
     "duration": "PT95M",
     "releaseDate": "2018-01-24",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Intimate portrait of a woman drifting between reality and denial when she is left alone to grapple with the consequences of her husband's imprisonment.",
+    "description": "Intimate portrait of a woman drifting between reality and denial when she is left alone to grapple with the consequences of her husband's imprisonment.",
     "actors": [
       "Charlotte Rampling",
       "Andr\u00e9 Wilms",
       "St\u00e9phanie Van Vyve"
     ],
     "imdbRating": 6.5,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWJmMWIxMjQtZTk0Mi00YTE0LTkyNzAtYzQxYjcwYjE4ZDk2XkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_SY500_SX350_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWJmMWIxMjQtZTk0Mi00YTE0LTkyNzAtYzQxYjcwYjE4ZDk2XkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_SY500_SX350_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/u73CLdHpbNk"
   },
   {
     "id": "4",
@@ -82,16 +85,17 @@
     "contentRating": "R",
     "duration": "PT92M",
     "releaseDate": "2018-03-09",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "1920, rural Ireland. Anglo Irish twins Rachel and Edward share a strange existence in their crumbling family estate. Each night, the property becomes the domain of a sinister presence (The Lodgers) which enforces three rules upon the twins: they must be in bed by midnight; they may not permit an outsider past the threshold; if one attempts to escape, the life of the other is placed in jeopardy. When troubled war veteran Sean returns to the nearby village, he is immediately drawn to the mysterious Rachel, who in turn begins to break the rules set out by The Lodgers. The consequences pull Rachel into a deadly confrontation with her brother - and with the curse that haunts them.",
+    "description": "1920, rural Ireland. Anglo Irish twins Rachel and Edward share a strange existence in their crumbling family estate. Each night, the property becomes the domain of a sinister presence (The Lodgers) which enforces three rules upon the twins: they must be in bed by midnight; they may not permit an outsider past the threshold; if one attempts to escape, the life of the other is placed in jeopardy. When troubled war veteran Sean returns to the nearby village, he is immediately drawn to the mysterious Rachel, who in turn begins to break the rules set out by The Lodgers. The consequences pull Rachel into a deadly confrontation with her brother - and with the curse that haunts them.",
     "actors": [
       "Charlotte Vega",
       "David Bradley",
       "Moe Dunford"
     ],
     "imdbRating": 5.8,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BM2FhM2E1MTktMDYwZi00ODA1LWI0YTYtN2NjZjM3ODFjYmU5XkEyXkFqcGdeQXVyMjY1ODQ3NTA@._V1_SY500_CR0,0,337,500_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BM2FhM2E1MTktMDYwZi00ODA1LWI0YTYtN2NjZjM3ODFjYmU5XkEyXkFqcGdeQXVyMjY1ODQ3NTA@._V1_SY500_CR0,0,337,500_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/ltIcW2xMuzs"
   },
   {
     "id": "5",
@@ -106,16 +110,17 @@
     "contentRating": "R",
     "duration": "",
     "releaseDate": "2018-02",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Sean Haggerty only has an hour to deliver his illegal cargo. An hour to reassure a drug cartel, a hitman, and the DEA that nothing is wrong. An hour to make sure his wife survives. And he must do it all from the cockpit of his Cessna.",
+    "description": "Sean Haggerty only has an hour to deliver his illegal cargo. An hour to reassure a drug cartel, a hitman, and the DEA that nothing is wrong. An hour to make sure his wife survives. And he must do it all from the cockpit of his Cessna.",
     "actors": [
       "Daniel Radcliffe",
       "Grace Gummer",
       "Pablo Schreiber"
     ],
     "imdbRating": "",
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyNTM3MDQ2NV5BMl5BanBnXkFtZTgwMDI5Nzk1NDM@._V1_SY500_CR0,0,336,500_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyNTM3MDQ2NV5BMl5BanBnXkFtZTgwMDI5Nzk1NDM@._V1_SY500_CR0,0,336,500_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/Zu3fFipajF4"
   },
   {
     "id": "6",
@@ -129,16 +134,17 @@
     "contentRating": "",
     "duration": "PT88M",
     "releaseDate": "2017-03-10",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "A claustrophobic survival thriller set beneath the Yellow Sea off the coast of North Korea where the pilot of a small submersible craft and a three man Special Ops team on a secret recovery mission become trapped underwater in a fight for survival.",
+    "description": "A claustrophobic survival thriller set beneath the Yellow Sea off the coast of North Korea where the pilot of a small submersible craft and a three man Special Ops team on a secret recovery mission become trapped underwater in a fight for survival.",
     "actors": [
       "Johannes Kuhnke",
       "Charlotte Salt",
       "James McArdle"
     ],
     "imdbRating": 4.4,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTVlODgwMjgtZGUzMy00ZTY1LWIyMDEtYTI2Y2JlYzVjZTNkXkEyXkFqcGdeQXVyNTg0MDM1MzY@._V1_SY500_CR0,0,337,500_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTVlODgwMjgtZGUzMy00ZTY1LWIyMDEtYTI2Y2JlYzVjZTNkXkEyXkFqcGdeQXVyNTg0MDM1MzY@._V1_SY500_CR0,0,337,500_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/MkBbkFLkrh0"
   },
   {
     "id": "7",
@@ -151,16 +157,17 @@
     "contentRating": "",
     "duration": "PT102M",
     "releaseDate": "2018-02-23",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Following the stories of Bruce Lisker and Reggie Cole who spent year after year in prison for murders they didn't commit - audiences get a harrowing look at how barbaric the US justice system is. The film ultimately asks how we can survive the prison model at all, and looks at better solutions for conflict resolution, harm reduction, crime and more. Hosted by filmmaker Matthew Cooke and guest hosting representatives from the massive range of Americans joining forces to change this broken system.                Written by\nanonymous",
+    "description": "Following the stories of Bruce Lisker and Reggie Cole who spent year after year in prison for murders they didn't commit - audiences get a harrowing look at how barbaric the US justice system is. The film ultimately asks how we can survive the prison model at all, and looks at better solutions for conflict resolution, harm reduction, crime and more. Hosted by filmmaker Matthew Cooke and guest hosting representatives from the massive range of Americans joining forces to change this broken system.                Written by\nanonymous",
     "actors": [
       "Susan Sarandon",
       "Patricia Arquette",
       "Danny Trejo"
     ],
     "imdbRating": "",
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzhmNmI5MDMtZDEyOC00ODkyLTkwODItODQzODAzY2QyZjVlXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SY500_CR0,0,357,500_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzhmNmI5MDMtZDEyOC00ODkyLTkwODItODQzODAzY2QyZjVlXkEyXkFqcGdeQXVyMzQwMTY2Nzk@._V1_SY500_CR0,0,357,500_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/dubGnRmUXck"
   },
   {
     "id": "8",
@@ -174,16 +181,17 @@
     "contentRating": "R",
     "duration": "PT139M",
     "releaseDate": "2018-03-02",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "A young Russian intelligence officer is assigned to seduce a first-tour CIA agent who handles the CIA's most sensitive penetration of Russian intelligence. The two young officers collide in a charged atmosphere of trade-craft, deception, and inevitably forbidden passion that threatens not just their lives but the lives of others as well.",
+    "description": "A young Russian intelligence officer is assigned to seduce a first-tour CIA agent who handles the CIA's most sensitive penetration of Russian intelligence. The two young officers collide in a charged atmosphere of trade-craft, deception, and inevitably forbidden passion that threatens not just their lives but the lives of others as well.",
     "actors": [
       "Jennifer Lawrence",
       "Joel Edgerton",
       "Charlotte Rampling"
     ],
     "imdbRating": "",
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA3MDkxOTc4NDdeQTJeQWpwZ15BbWU4MDAxNzgyNTQz._V1_SY500_CR0,0,337,500_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA3MDkxOTc4NDdeQTJeQWpwZ15BbWU4MDAxNzgyNTQz._V1_SY500_CR0,0,337,500_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/PmUL6wMpMWw"
   },
   {
     "id": "9",
@@ -198,16 +206,17 @@
     "contentRating": "R",
     "duration": "PT108M",
     "releaseDate": "2018-04-13",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "Dr. Paul Kersey (Bruce Willis) is a surgeon who only sees the aftermath of his city's violence as it's rushed into his ER -until his wife (Elisabeth Shue) and college-age daughter (Camila Morrone) are viciously attacked in their suburban home. With the police overloaded with crimes, Paul, burning for revenge, hunts for his family's assailants to deliver justice. As the anonymous slayings of criminals grabs the media's attention, the city wonders if this deadly avenger is a guardian angel...or a grim reaper. Fury and fate collide in the intense action-thriller Death Wish.                Written by\nMGM",
+    "description": "Dr. Paul Kersey (Bruce Willis) is a surgeon who only sees the aftermath of his city's violence as it's rushed into his ER -until his wife (Elisabeth Shue) and college-age daughter (Camila Morrone) are viciously attacked in their suburban home. With the police overloaded with crimes, Paul, burning for revenge, hunts for his family's assailants to deliver justice. As the anonymous slayings of criminals grabs the media's attention, the city wonders if this deadly avenger is a guardian angel...or a grim reaper. Fury and fate collide in the intense action-thriller Death Wish.                Written by\nMGM",
     "actors": [
       "Bruce Willis",
       "Vincent D'Onofrio",
       "Elisabeth Shue"
     ],
     "imdbRating": "",
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNjU3MjE0MF5BMl5BanBnXkFtZTgwNTIyNDk0NDM@._V1_SY400_SX270_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNjU3MjE0MF5BMl5BanBnXkFtZTgwNTIyNDk0NDM@._V1_SY400_SX270_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/qmxMAdV6s4U"
   },
   {
     "id": "10",
@@ -220,15 +229,16 @@
     "contentRating": "R",
     "duration": "PT108M",
     "releaseDate": "2017-09-21",
+    "country": "USA",
     "averageRating": 0,
-    "originalTitle": "",
-    "storyline": "A troubled family face the facts when something goes terribly wrong at their son's desolate military post.",
+    "description": "A troubled family face the facts when something goes terribly wrong at their son's desolate military post.",
     "actors": [
       "Lior Ashkenazi",
       "Sarah Adler",
       "Yonaton Shiray"
     ],
     "imdbRating": 7.4,
-    "posterurl": "https://images-na.ssl-images-amazon.com/images/M/MV5BOGUyZTJhZWEtNGIwZi00YjUwLTljMGMtNjliMzM1NDMxYjJmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY500_CR0,0,353,500_AL_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BOGUyZTJhZWEtNGIwZi00YjUwLTljMGMtNjliMzM1NDMxYjJmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY500_CR0,0,353,500_AL_.jpg",
+    "trailer": "https://www.youtube.com/embed/qmxMAdV6s4U"
   }
 ]
