@@ -6,11 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 First things first. To serve this Angular application. It's required to have install NodeJS as your Javascript Runtime Environment (https://nodejs.org/es/). After that, you need to install Angular using the command: `npm i -g @angular/cli`. Then, you need to check that you installed it successfully by running `ng v`.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` or `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Running unit tests
 
-Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.github.io). Also, to check the code coverage
+Run `ng test` or `npm run test` to execute the unit tests via [Karma](https://karma-runner.github.io). Also, to check the code coverage
 
 ## Code scaffolding
 
