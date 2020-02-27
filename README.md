@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+First things first. To serve this Angular application. It's required to have install NodeJS as your Javascript Runtime Environment (https://nodejs.org/es/). After that, you need to install Angular using the command: `npm i -g @angular/cli`. Then, you need to check that you installed it successfully by running `ng v`.
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
