@@ -9,19 +9,30 @@ import { MovieModalService } from '../services/movie-modal.service';
 import { MovieCardComponent } from './components/movie-card/movie-card.component';
 import { MovieModalComponent } from './components/movie-modal/movie-modal.component';
 import { SafePipe } from './pipes/safe.pipe';
+import { MovieSellerComponent } from './components/movie-seller/movie-seller.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
-  declarations: [MovieCardComponent, MovieModalComponent, SafePipe],
+  declarations: [
+    MovieCardComponent,
+    MovieModalComponent,
+    SafePipe,
+    MovieSellerComponent
+  ],
   imports: [
     CommonModule,
     MatCardModule,
     MatButtonModule,
     MatBadgeModule,
     MatDialogModule,
-    MatChipsModule
+    MatChipsModule,
+    MatIconModule
   ],
   exports: [
-    MovieCardComponent, MovieModalComponent, SafePipe
+    MovieCardComponent,
+    MovieModalComponent,
+    SafePipe,
+    MovieSellerComponent
   ],
   providers: [
     MovieModalService,

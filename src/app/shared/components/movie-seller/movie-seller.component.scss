@@ -1,0 +1,49 @@
+@import './../../../../assets/scss/utilities/mixins';
+
+
+.fixed {
+  position: fixed;
+  top: 40vh;
+}
+
+.movie-seller {
+  padding: 0;
+  margin-right: 20px;
+
+  @include e('header') {
+    margin-bottom: 15px;
+    padding-top: 15px;
+
+    @include gc('text') {
+      display: flex;
+      justify-content: flex-start;
+      font-size: 1.8rem;
+      font-family: 'Roboto';
+      font-weight: bold;
+      color: #4054b5;
+      margin-left: 15px;
+    }
+  }
+
+  @include e('container') {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include gc('content') {
+      .info {
+        display: flex;
+        margin-left: 12px;
+      }
+
+      .actions {
+        display: flex;
+
+        .text {
+          align-self: center;
+          margin-bottom: 0px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}
