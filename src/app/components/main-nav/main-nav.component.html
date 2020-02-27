@@ -30,10 +30,11 @@
     <mat-sidenav-content>
       <div>
         <div class="screen-button" *ngIf="!(isHandset$ | async)">
-          <button mat-button matTooltip="{{openSideBar ? 'Collapse your view' : 'Expand your view'}}"
+          <button mat-button matTooltip="{{ isOpenSideBar ? 'Collapse your panel' : 'Expand your panel' }}"
             (click)="onChangeScreenMode()" color="basic">
-            <i class="material-icons">{{ openSideBar ? 'swap_horiz' : 'fullscreen' }}</i>
+            <i class="material-icons">{{ isOpenSideBar ? 'swap_horiz' : 'fullscreen' }}</i>
           </button>
+          <h1 class="title">{{ validateRoute() }}</h1>
         </div>
         <ng-content></ng-content>
       </div>

@@ -7,15 +7,13 @@ import { MovieModalService } from 'src/app/services/movie-modal.service';
   templateUrl: './movie-card.component.html',
   styleUrls: ['./movie-card.component.scss']
 })
-export class MovieCardComponent implements OnInit {
+export class MovieCardComponent {
 
   @Input() movie: Movie;
 
   constructor(
     private modal: MovieModalService
   ) { }
-
-  ngOnInit(): void {}
 
   onCardDetail(): void {
     this.modal.openCardDetail(this.movie);

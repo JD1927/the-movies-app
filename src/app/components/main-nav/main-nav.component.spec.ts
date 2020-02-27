@@ -8,6 +8,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { MainNavComponent } from './main-nav.component';
+import { RouterTestingModule } from '@angular/router/testing';
 
 describe('MainNavComponent', () => {
   let component: MainNavComponent;
@@ -24,6 +25,7 @@ describe('MainNavComponent', () => {
         MatListModule,
         MatSidenavModule,
         MatToolbarModule,
+        RouterTestingModule
       ]
     }).compileComponents();
   }));
@@ -36,5 +38,28 @@ describe('MainNavComponent', () => {
 
   it('should compile', () => {
     expect(component).toBeTruthy();
+  });
+
+  describe('#onChangeScreenMode()', () => {
+    it('Should change the screen mode to collapsed when it is expanded', () => {
+      // Arrange
+      component.isOpenSideBar = true;
+      const toggleSpy = spyOn(component.drawer, 'toggle');
+      // Act
+      component.onChangeScreenMode();
+      // Assert
+      expect(component.isOpenSideBar).toBeFalsy();
+      expect(toggleSpy).toHaveBeenCalled();
+    });
+    it('Should change the screen mode to expanded when it is collapsed', () => {
+      // Arrange
+      component.isOpenSideBar = false;
+      const toggleSpy = spyOn(component.drawer, 'toggle');
+      // Act
+      component.onChangeScreenMode();
+      // Assert
+      expect(component.isOpenSideBar).toBeTruthy();
+      expect(toggleSpy).toHaveBeenCalled();
+    });
   });
 });

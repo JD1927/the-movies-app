@@ -27,5 +27,11 @@
 }
 
 .screen-button {
+  display: flex;
   margin-bottom: 20px;
+  margin-top: 10px;
+
+  .title {
+    margin-bottom: 0px;
+  }
 }

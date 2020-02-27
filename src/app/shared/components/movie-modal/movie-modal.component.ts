@@ -7,14 +7,11 @@ import { Movie } from 'src/app/models/movie.model';
   templateUrl: './movie-modal.component.html',
   styleUrls: ['./movie-modal.component.scss']
 })
-export class MovieModalComponent implements OnInit {
+export class MovieModalComponent {
 
   constructor(
     public dialogRef: MatDialogRef<MovieModalComponent>,
     @Inject(MAT_DIALOG_DATA) public movie: Movie
   ) { }
-
-  ngOnInit(): void {
-  }
 
 }

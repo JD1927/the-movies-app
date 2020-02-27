@@ -13,7 +13,6 @@ export class MovieModalService {
     public dialogRef: MatDialogRef<any, any>
   ) { }
 
-
   openCardDetail(movie: Movie): void {
     this.dialog.open(MovieModalComponent, {
       panelClass: 'movie-modal',

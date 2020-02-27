@@ -1,6 +1,9 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MovieModalComponent } from './movie-modal.component';
+import { MatDialogRef, MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
+import { SafePipe } from '../../pipes/safe.pipe';
+import { SharedModule } from '../../shared.module';
 
 describe('MovieModalComponent', () => {
   let component: MovieModalComponent;
@@ -8,7 +11,12 @@ describe('MovieModalComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MovieModalComponent ]
+      imports: [MatDialogModule, SharedModule],
+      declarations: [ MovieModalComponent ],
+      providers: [
+        { provide: MatDialogRef, useValue: {} },
+      { provide: MAT_DIALOG_DATA, useValue: {} },
+      ]
     })
     .compileComponents();
   }));
@@ -16,7 +24,6 @@ describe('MovieModalComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(MovieModalComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
   it('should create', () => {
